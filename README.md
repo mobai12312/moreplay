@@ -1,5 +1,9 @@
 # MorePlay
 
+<p align="center">
+  <img src="docs/logo-moreplay.png" alt="MorePlay Logo" width="160">
+</p>
+
 **NAS / Docker 影视源多协议桥接服务 · 从安装到播放器接入的新手教程**
 
 MorePlay 可以将你自行添加的 **CatPawOpen 猫源、兼容的影视仓 / TVBox 输入**，整理为不同客户端可使用的服务。只需要在 NAS 或 Linux 服务器上部署一次，就可以按需使用 **Emby、Forward / Rex、STRM、T4** 等功能。
@@ -10,7 +14,7 @@ MorePlay 可以将你自行添加的 **CatPawOpen 猫源、兼容的影视仓 / 
 
 **版本提示：** 本文整合了仓库中按 **3.1** 编写的功能介绍和新手部署说明。镜像版本以 [Docker Hub 标签列表](https://hub.docker.com/r/mobai1231/catpawopen-fw/tags) 为准；不同版本的功能入口可能略有差异。
 
-[快速安装](#一5-分钟安装-moreplay) · [添加站源](#二首次登录与配置站源) · [连接播放器](#三连接播放器选择适合自己的功能) · [高级功能](#四按需使用的进阶功能) · [更新备份](#五更新与备份) · [常见问题](#六常见问题) · [更新说明](#七版本更新说明)
+[界面预览](#界面预览) · [快速安装](#一5-分钟安装-moreplay) · [添加站源](#二首次登录与配置站源) · [连接播放器](#三连接播放器选择适合自己的功能) · [高级功能](#四按需使用的进阶功能) · [更新备份](#五更新与备份) · [常见问题](#六常见问题) · [更新说明](#七版本更新说明)
 
 ## MorePlay 能做什么？
 
@@ -22,6 +26,37 @@ MorePlay 可以将你自行添加的 **CatPawOpen 猫源、兼容的影视仓 / 
 | **T4 / TVBox** | 使用 OK 影视等兼容客户端 | 提供 T4 配置、按站点浏览与搜索 |
 | **站源管理与播放诊断** | 所有用户 | 统一管理站源、各站点单独代理、排查播放失败与查看日志 |
 
+
+## 界面预览
+
+<p align="center">
+  <img src="docs/screenshots/dashboard-overview.webp" alt="MorePlay 管理台概览" width="100%">
+</p>
+
+<p align="center"><sub>管理台概览</sub></p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/sites-management.webp" alt="MorePlay 站源管理" width="100%">
+      <br><sub>站源管理</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/services-management.webp" alt="MorePlay 媒体服务" width="100%">
+      <br><sub>媒体服务</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/emby-management.webp" alt="MorePlay Emby 管理" width="100%">
+      <br><sub>Emby 兼容服务</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/strm-management.webp" alt="MorePlay STRM 媒体库" width="100%">
+      <br><sub>STRM 媒体库</sub>
+    </td>
+  </tr>
+</table>
 
 ## 一、5 分钟安装 MorePlay
 
