@@ -146,7 +146,7 @@ http://192.168.1.10:2333/bridge
 | 名称 | 猫源地址 |
 | --- | --- |
 | 牛源 | `https://9280.kstore.vip/cat/index.js.md5` |
-| 豆源 | `<源作者提供的完整授权地址>` |
+| 豆源 | `https://woleigedouer:woleigedouer@catpaw.douer.me/index.js.md5` |
 
 > **提示：** 豆源地址包含用户名和密码，请复制完整地址；请勿把它误认为 MorePlay 的管理账号。
 
