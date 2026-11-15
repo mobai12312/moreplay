@@ -1,6 +1,6 @@
-# MorePlay 2.4.0
+# MorePlay 2.5.0
 
-2026-08-31 版本资料
+2026-09-08 版本资料
 
 - [安装与使用说明](https://github.com/mobai12312/moreplay#readme)
 - [Docker Hub 镜像标签](https://hub.docker.com/r/mobai1231/catpawopen-fw/tags)
